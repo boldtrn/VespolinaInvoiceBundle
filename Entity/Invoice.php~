@@ -145,24 +145,4 @@ class Invoice implements InvoiceInterface
     {
         return $this->issue_date;
     }
-
-    /**
-     * Set address
-     *
-     * @param Vespolina\InvoiceBundle\Entity\Address $address
-     */
-    public function setAddress(\Vespolina\InvoiceBundle\Entity\Address $address)
-    {
-        $this->address = $address;
-    }
-
-    /**
-     * Get address
-     *
-     * @return Vespolina\InvoiceBundle\Entity\Address 
-     */
-    public function getAddress()
-    {
-        return $this->address;
-    }
 }
