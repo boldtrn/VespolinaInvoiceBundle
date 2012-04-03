@@ -6,7 +6,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Vespolina\VespolinaInvoiceBundle;
+namespace Vespolina\InvoiceBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
